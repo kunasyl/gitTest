@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hogwarts home page</title>
+</head>
+<body>
+	<h1 align="center"><b>Hogwarts School of Witchcraft and Wizardy</b></h1>
+	<h2>Welcome to Hogwarts!</h2>
+	<p><strong>Enter your student information in the form below.</strong></p>
+	<form method="post" action="mailto:hogwartsschool@stud.com"></form>
+
+	<p>Input your name:</p>
+	<input type="text" name="Name" name="name">
+
+	<p>Choose your Hogwarts house:</p>
+	<select name="house" size="1">
+		<option selected value="notselected">Not selected</option>
+		<option value="griffindor">Griffindor</option>
+		<option value="hufflepuff">Hufflepuff</option>
+		<option value="ravenclaw">Ravenclaw</option>
+		<option value="slytherin">Slytherin</option>
+	</select>
+
+	<p>Choose the studying year:</p>
+	<input type="radio" value="true" name="check">1<br>
+	<input type="radio" value="true" name="check">2<br>
+	<input type="radio" value="true" name="check">3<br>
+	<input type="radio" value="true" name="check">4<br>
+	<input type="radio" value="true" name="check">5<br>
+	<input type="radio" value="true" name="check">6<br>
+
+	<p>Choose your curriculum</p>
+	<input type="checkbox" name="c1" value="on">Astronomy<br>
+	<input type="checkbox" name="c2" value="on">Charms<br>
+	<input type="checkbox" name="c3" value="on">Defence Against The Dark Arts<br>
+	<input type="checkbox" name="c4" value="on">Herbology<br>
+	<input type="checkbox" name="c5" value="on">History Of Magic<br>
+	<input type="checkbox" name="c6" value="on">Potions<br>
+	<input type="checkbox" name="c7" value="on">Transfiguration<br>
+	<input type="checkbox" name="c8" value="on">Flying (first year only)<br>
+
+	<h3>Please describe yourself in a few sentences.</h3>
+	<textarea name="information" rows="6" cols="50" wrap="virtual"></textarea>
+
+	<input type="submit" value="Submit" name="submit">
+	<input type="reset" value="Reset" name="reset">
+
+	<p><i>Sincerely yours, Minerva McGonagall</i></p>
+</body>
+</html>
